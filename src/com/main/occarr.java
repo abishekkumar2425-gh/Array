@@ -1,7 +1,7 @@
 package com.main;
 public class occarr{
 public static void main(String args[]){
- int arr[]={1,1,2,2,3,3,5,6,7,4,4};
+ int arr[]={1,1,2,2,3,3,5,6,7,4,4,4};
  int len=arr.length;
  int a[]=new int [len];
  for(int i=0;i<len;i++){
