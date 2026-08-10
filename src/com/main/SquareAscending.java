@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SquareAscending {
 
 	public static void main(String[] args) {
-		int arr[] = {-4,-3,-2,0,1,4,6,7};
+		int arr[] = {-4,-3,-2,0,1,4,6,7,8};
 		int i = 0, j = arr.length-1, k = arr.length-1;
 		int arrf[]= new int [arr.length];
         while(k >= 0){
