@@ -15,6 +15,7 @@ public class CanPlaceFlowers {
                 if (left && right) {
                     arr[i] = 1;
                     count++;
+                    i++;
                 }
             }
         }
