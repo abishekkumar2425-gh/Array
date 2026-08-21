@@ -3,7 +3,7 @@ import java.util.*;
 public class ArrayPairSum {
 
 	public static void main(String[] args) {
-		int[] nums = {1,4,3,6,7,8,2,9};
+		int[] nums = {1,4,3,6,2,9};
 
         Arrays.sort(nums);
 
