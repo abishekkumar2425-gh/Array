@@ -3,7 +3,7 @@ package com.main;
 public class Monotic {
 
 	public static void main(String[] args) {
-		int nums[]={5,4,3,2,1};
+		int nums[]={5,4,3,2};
 		System.out.println(isMonotic(nums));}
     public static boolean isMonotic(int arr[]){
 		boolean isInc = true ;
