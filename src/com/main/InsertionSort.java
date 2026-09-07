@@ -3,7 +3,7 @@ import java.util.*;
 public class InsertionSort {
 
 	public static void main(String[] args) {
-		int arr[] = { 5,2,7,3,9,8};
+		int arr[] = { 5,2,7,3,8};
 		System.out.println("Unsorted Array : " + Arrays.toString(arr)); 
 		for(int i = 1; i < arr.length ; i++) {
 			int curr = arr[i];
