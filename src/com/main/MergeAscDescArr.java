@@ -33,8 +33,8 @@ public class MergeAscDescArr {
 	}
 
 	public static void main(String[] args) {
-		int arr1[] = {2,5,7,10,12,14};
-		int arr2[] = {15,13,11,9,6,3,1};
+		int arr1[] = {2,5,7,12,14};
+		int arr2[] = {15,13,9,6,3,1};
 		int res[]=merged(arr1,arr2);
 		System.out.println(Arrays.toString(res));
 
