@@ -18,7 +18,7 @@ public class MergeAscDescArr {
 				i++;
 			}
 			else if(arr1[i]<arr2[j]) {
-				result[k] = arr1[i];
+				result[] = arr1[i];
 				i++;
 			}
 			else {
