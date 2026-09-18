@@ -18,7 +18,7 @@ public class MergeAscDescArr {
 				i++;
 			}
 			else if(arr1[i]<arr2[j]) {
-				result[] = arr1[i];
+				result[k] = arr1[i];
 				i++;
 			}
 			else {
@@ -33,7 +33,7 @@ public class MergeAscDescArr {
 	}
 
 	public static void main(String[] args) {
-		int arr1[] = {2,5,7,12,14};
+		int arr1[] = {2,5,7,12};
 		int arr2[] = {15,13,9,6,3,1};
 		int res[]=merged(arr1,arr2);
 		System.out.println(Arrays.toString(res));
